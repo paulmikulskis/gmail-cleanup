@@ -1,4 +1,4 @@
-# Gmail Cleanup
+# gmail-cleanup
 
 Simple cleanup script to run that cleans your inbox based on a given query.
 
