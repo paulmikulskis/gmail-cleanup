@@ -1,7 +1,7 @@
 function cleanup() {
   //This array houses the search queries you need to execute to find all the messages you want
   //cleaned from your email.
-  const queryArray = [ "category:promotions in:inbox AND -in:starred older_than:" ];
+  const queryArray = [ "in:anywhere from:(shop@teavana.com OR info.postcustomercentre@yahoo.com OR shop@poshmark.com OR catholicuniversity@catholicua.org OR catholicuniversity@catholicua.org OR accra.unic.gh@presidency.com OR nytdirect@nytimes.com OR notifications@github.com OR newsletter@p.indiegogo.com OR notification@service.tiktok.com OR news@emails.waves-audio.com OR dan@tldrnewsletter.com OR microcenter@microcenterinsider.com OR noreply@steampowered.com OR extracare@pharmacy.cvs.com) after:2015/1/1 before:2024/1/26 older_than:" ];
   
   //This array houses objects with an index, a type, and a value.
   //The index field is directly mapped to the queryArray to describe what query the value belongs to.
